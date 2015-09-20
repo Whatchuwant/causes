@@ -20,7 +20,6 @@ header {
     text-align: left;
     margin-right: 100px;
     font-size: 12px;
-
 }
 
   #header-content {
@@ -43,7 +42,7 @@ a:link, a:visited, a:active  {
 
 a:hover {
 /*    color: ;*/
-    text-decoration:underline;
+    text-decoration:line-through;
 }
 
 
@@ -57,8 +56,6 @@ a:hover {
 .center {
     text-align: center;
 }
-
-
 
 /*nav {
     width:700px;
@@ -116,7 +113,7 @@ footer {
 }
 
 #hero {
-    background-image: url(../images/elephants1.jpg);
+    background-image: url(images/elephants1.jpg);
     background-size: cover;
     height: 500px;
     display: block;
@@ -130,54 +127,48 @@ footer {
     color:#fff;
     font-size:40px;
     text-transform: uppercase;
-    font-style:bold;
-    letter-spacing: 5px;
+    font-style:italic;
 
 }
 
 #info {
-    margin-top:20px;
     height: 354px;
-    background-color: #fff;
+    background-color: #494429;
 }
 
 
 #section-left{
     float: left;
-    background-color: #fff;
-/*    background-image: url(../images/elephants2.jpg);*/
+    background-color: #95663b;
+    background-image: url(../images/elephants2.jpg);
     background-size: cover;
     display: block;
-    width: 50%;
 }
 
 #section-left img{
-    width: 100%;
+    width: 600px;
     margin-top: 0px;
         
 }
 
 #section-right {
-    color: #000;
+    color: white;
     float: right;
     display: inline-block;
-    width: 50%;
-    height: 300px;
-    float:left;
+    width: 300px;
+    margin-right: 300px;
+    height: 200px;
 }
 
 #par1 {
-  
     float: left;
-    width: 45%;
-    padding-right: 10px;
-    margin-left: 15px;
+    width: 40%;
+    padding-right: 50px;
 }
 
 #par2 {
-
     float: left;
-    width: 45%;
+    width: 40%;
 
 }
 
@@ -189,9 +180,9 @@ footer {
 }
 
 #location img {
-    width: 600px;
+    width: 500px;
     float: right;
-  /*  margin-right: 200px;*/
+    margin-right: 200px;
 }
 
 #img-gallery {
